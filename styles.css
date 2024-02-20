@@ -8,7 +8,31 @@ body {
     width: 80%;
     margin: 0 auto;
   }
-  
+ 
+  #navId img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+  }
+
+  .nav-tabs li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-tabs li img {
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+  transition: all 0.3s ease;
+}
+
+.nav-tabs li img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2); /* Increase brightness on hover */
+}
+
+
   header {
     background-color: #333;
     color: #fff;
@@ -17,8 +41,8 @@ body {
   }
   
   header .profile-image {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
   }
@@ -37,12 +61,10 @@ body {
   
   .project {
     margin-bottom: 20px;
-  }
- #project{
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
-  } 
+  }
+
   footer {
     background-color: #333;
     color: #fff;
