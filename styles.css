@@ -1,79 +1,309 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    width: 80%;
-    margin: 0 auto;
-  }
- 
-  #navId img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    
-  }
-
-  .nav-tabs li {
-  display: inline-block;
-  margin-right: 20px;
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.nav-tabs li img {
-  width: 30px; /* Adjust size as needed */
-  height: 30px; /* Adjust size as needed */
-  transition: all 0.3s ease;
+/* Setting up basic styles for the header */
+header {
+  background-color: #f9d5e5; /* Soft pink */
+  padding: 20px 0;
 }
 
-.nav-tabs li img:hover {
+.container {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+  color: #e06377; /* Coral pink */
+}
+
+p {
+  font-size: 1.2rem;
+  color: #c83349; /* Dark pink */
+}
+
+/* Styling navigation tabs */
+.nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav li {
+  margin: 0 10px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.nav img:hover {
   transform: scale(1.2);
-  filter: brightness(1.2); /* Increase brightness on hover */
 }
 
 
-  header {
-    background-color: #c83349;
-    color: #f9d5e5;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  header .profile-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    margin-left: 70%;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  #about, #projects {
-    padding: 50px 0;
-  }
-  
-  #about h2, #projects h2 {
-    text-align: center;
-  }
-  
-  .project {
-    margin-bottom: 20px;
-    background-color: #081e42;
-    color: #fff;
-  }
+/* About section */
+#about {
+  background-color:Light orange; /* Light orange   #eeac99 */
+  padding: 50px 0;
+}
 
-  #about{
-    background-color:#f9d5e5;
-  }
+#about .container {
+  text-align: center;
+  margin: 0 auto;
+}
 
-  footer {
-    background-color: #c83349;
-    color: #cecdcd;
-    text-align: center;
-    padding: 20px 0;
-  }
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #c83349; /* Dark pink */
+}
+
+#about p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+
+
+
+
+/* Projects section */
+#projects {
+  background-color: #f9d5e5; /* Soft pink */
+  padding: 50px 0;
+}
+
+#projects .container {
+  text-align: center;
+}
+
+.projects-container {
+ 
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-card {
+  max-width: 300px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin: 0 15px 30px 15px; /* Added margin for spacing */
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.project-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #e06377; /* Coral pink */
+}
+
+.project-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #e06377; /* Coral pink */
+}
+
+#projects h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #c83349; /* Dark pink */
+}
+
+.project-info p {
+  font-size: 1rem;
+  color: #666;
+}
+
+#github img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+#github{
+  list-style-type: none;
+  text-decoration: none;
+}
+#github img:hover {
+  transform: scale(1.2);
+}
+
+
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #eeac99; /* Light orange */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #c83349; /* Dark pink */
+}
+
+
+
+/* work experience section */
+#work {
+  background-color: #666; /* #f9d5e5 Soft pink */
+  padding: 50px 0;
+}
+
+#work .container {
+  text-align: center;
+}
+
+.work-container {
+ 
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.work-card {
+  max-width: 800px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin: 0 15px 30px 15px; /* Added margin for spacing */
+}
+
+#white{
+  color: #fff;
+}
+#grey{
+  color: #666;
+}
+
+
+.work-card:hover {
+  transform: translateY(-5px);
+}
+
+.work-card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.work-info {
+  padding: 20px;
+}
+
+.work-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #e06377; /* Coral pink */
+}
+
+.work-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #e06377; /* Coral pink */
+}
+
+.work-info p {
+  font-size: 1rem;
+  color: #666;
+}
+
+
+.workli img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.workli {
+  list-style-type: none;text-decoration: none;
+}
+.workli img:hover {
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+/* Skills section */
+#skills {
+  background-color: #e06377; /* Dark coral */
+  padding: 50px 0;
+}
+
+#skills .container {
+  text-align: center;
+}
+
+#skills ul {
+  list-style-type: none;
+  padding: 0;
   
+}
+
+#skills ul li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+#footer {
+  background-color: #c83349; /* Dark pink */
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+}
+ #footer p{
+  color: #f9d5e5;
+  text-align: center;
+ }
