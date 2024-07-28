@@ -87,7 +87,21 @@ p {
   color: #666;
 }
 
+/* Styling the read more button */
+#read-more-btn {
+  background-color: #eeac99; /* Light orange */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
 
+#read-more-btn:hover {
+  background-color: #c83349; /* Dark pink */
+}
 
 
 
@@ -189,7 +203,7 @@ p {
 
 /* work experience section */
 #work {
-  background-color: #666; /* #f9d5e5 Soft pink */
+  
   padding: 50px 0;
 }
 
@@ -205,8 +219,7 @@ p {
 }
 
 .work-card {
-  max-width: 800px;
-  margin-bottom: 30px;
+
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -220,6 +233,7 @@ p {
 #grey{
   color: #666;
 }
+
 
 
 .work-card:hover {
@@ -248,6 +262,11 @@ p {
   color: #e06377; /* Coral pink */
 }
 
+.work-info h4 {
+
+  color: #666; /* grey */
+}
+
 .work-info p {
   font-size: 1rem;
   color: #666;
@@ -274,7 +293,7 @@ p {
 
 /* Skills section */
 #skills {
-  background-color: #e06377; /* Dark coral */
+  background-color: #f9d5e5; /* Dark coral */
   padding: 50px 0;
 }
 
@@ -292,13 +311,13 @@ p {
   display: inline-block;
   margin: 0 10px;
   font-size: 1.2rem;
-  color: #fff;
+  color: #666;
   margin-bottom: 10px;
 }
 
 /* Footer */
 #footer {
-  background-color: #c83349; /* Dark pink */
+  background-color: #eeac99; /* Light Orange */
   padding: 20px 0;
   color: #fff;
   text-align: center;
