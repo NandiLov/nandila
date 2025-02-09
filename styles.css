@@ -292,6 +292,11 @@ video {
   border-top-right-radius: 10px;
 }
 
+.work-card h4 {
+
+  color: #666 
+}
+
 .work-info {
   padding: 20px;
 }
