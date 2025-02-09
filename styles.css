@@ -1,113 +1,138 @@
-/* Resetting default margin and padding */
-* {
-  margin: 0;
+*{
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
-}
-
-/* Setting up basic styles for the header */
-header {
-  background-color: #f9d5e5; /* Soft pink */
-  padding: 20px 0;
-}
-
-.container {
-  text-align: center;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.profile-image {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border: 5px solid #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  font-size: 2.5rem;
-  margin: 10px 0;
-  color: #e06377; /* Coral pink */
-}
-
-p {
-  font-size: 1.2rem;
-  color: #c83349; /* Dark pink */
-}
-
-/* Styling navigation tabs */
-.nav {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.nav li {
-  margin: 0 10px;
-}
-
-.nav a {
+  font-family: sans-serif;
   text-decoration: none;
+
 }
 
-.nav img {
-  width: 40px;
-  height: 40px;
-  transition: transform 0.3s ease;
+/* Header section */
+.header{
+  width: 100%;
+  height: 100vh;
+  background: url(background1.png);
+  background-position: center;
+  background-size: cover;
 }
 
-.nav img:hover {
-  transform: scale(1.2);
+.header .box{
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  position: relative;
 }
 
-
-/* About section */
-#about {
-  background-color:Light orange; /* Light orange   #eeac99 */
-  padding: 50px 0;
+.header .box nav{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#about .container {
-  text-align: center;
-  margin: 0 auto;
+.header .box nav .logo{
+  font-size: 20px;  /**35px**/
+  color: #05511D; /**#fff**/
+  
+  font-weight: bold;
 }
 
-#about h2 {
-  font-size: 2rem;
-  margin-bottom: 30px;
-  color: #c83349; /* Dark pink */
-}
-
-#about p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  color: #666;
-}
-
-/* Styling the read more button */
-#read-more-btn {
-  background-color: #eeac99; /* Light orange */
+.header .box nav .div-links a{
+  margin-right: 30px;
   color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  margin-top: 10px;
+  font-weight: 500;
+  transition: 0.3s;
 }
 
-#read-more-btn:hover {
-  background-color: #c83349; /* Dark pink */
+.header .box nav .div-links a:hover{
+  color: red;
 }
+
+.contains{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.contains .section h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.contains .section h3{
+  color: red;
+  margin: 30 0 20px;
+  font-size: 25px;
+}
+
+.contains .section p{
+  font-size: 18px;
+  color: #c3c3c3;
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+.btn{
+  padding: 15px 20px;
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: o.3s;
+
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.btn:hover{
+  color: red;
+  background-color: #fff;
+
+}
+
+
+.social-links{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.social-links a{
+  color: #fff;
+  font-size: 22px;
+  transition: 0.4s;
+}
+
+.social-links a:hover{
+  color: red;
+  transform: scale(1.5);
+}
+
+span{
+  color: red;
+  font-weight: 500;
+  transform: rotate(270deg);
+  margin-top: 40px;
+}
+
+
+
 
 
 
 /* Projects section */
 #projects {
-  background-color: #f9d5e5; /* Soft pink */
+  background-color: #05511D; 
   padding: 50px 0;
 }
 
@@ -149,19 +174,19 @@ p {
 .project-info h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #e06377; /* Coral pink */
+  color: red; 
 }
 
 .project-info h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #e06377; /* Coral pink */
+  color: #fff; 
 }
 
 #projects h2 {
   font-size: 2rem;
   margin-bottom: 30px;
-  color: #c83349; /* Dark pink */
+  color: #fff; 
 }
 
 .project-info p {
@@ -185,18 +210,39 @@ p {
 
 
 
-.btn {
-  display: inline-block;
-  padding: 8px 16px;
-  background-color: #eeac99; /* Light orange */
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+
+/* About Me Section*/
+#about-me{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: center;
+
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f9f9f9;
 }
 
-.btn:hover {
-  background-color: #c83349; /* Dark pink */
+.about-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#about-me h2{
+  color: #05511D;
+}
+
+video {
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem 0;
+  border-radius: 10px;
 }
 
 
@@ -228,7 +274,7 @@ p {
 }
 
 #white{
-  color: #fff;
+  color: #05511D;
 }
 #grey{
   color: #666;
@@ -241,7 +287,7 @@ p {
 }
 
 .work-card img {
-  width: 100%;
+  width: 25%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -253,18 +299,18 @@ p {
 .work-info h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #e06377; /* Coral pink */
+  color: #666; 
 }
 
 .work-info h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #e06377; /* Coral pink */
+  color: #e06377; 
 }
 
 .work-info h4 {
 
-  color: #666; /* grey */
+  color: #05511D 
 }
 
 .work-info p {
@@ -290,12 +336,16 @@ p {
 
 /* Skills section */
 #skills {
-  background-color: #f9d5e5; /* Dark coral */
+  background-color: #fff; /* Dark coral */
   padding: 50px 0;
 }
 
 #skills .container {
   text-align: center;
+}
+
+#skills .container h2{
+  color: #05511D;
 }
 
 #skills ul {
@@ -314,11 +364,12 @@ p {
 
 /* Footer */
 #footer {
-  background-color: #eeac99; /* Light Orange */
+  background-color: #05511D;
   padding: 20px 0;
   color: #fff;
   text-align: center;
 }
+
  #footer p{
   color: #f9d5e5;
   text-align: center;
