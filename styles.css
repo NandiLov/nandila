@@ -113,7 +113,16 @@
   color: #fff;
   font-size: 22px;
   transition: 0.4s;
+
 }
+
+.social-links a {
+  color: #fff;
+  font-size: 22px;
+  transition: 0.4s;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0,    0.6); /* Adds a subtle shadow */
+}
+
 
 .social-links a:hover{
   color: red;
