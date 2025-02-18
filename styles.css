@@ -61,6 +61,7 @@
   font-size: 50px;
   font-weight: bold;
   color: #fff;
+  text-shadow: 2px 2px 4px black; /* Adds a black shadow for contrast */
 }
 
 .contains .section h3{
@@ -72,7 +73,7 @@
 .contains .section p{
   font-size: 18px;
   /*color: #43700c;*/
-  color: white; /* Main text color */
+  color: #fff; /* Main text color */
   text-shadow: 2px 2px 4px black; /* Adds a black shadow for contrast */
   margin-bottom: 50px;
   line-height: 2;
