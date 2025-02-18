@@ -1,0 +1,153 @@
+
+      
+
+      <section id="ux-projects">
+        <div class="container">
+          <h2>UI UX Projects</h2><br>
+          <div class="project-card">
+            <img src="skillup.png" alt="Project 1">
+            <div class="ux-project-info">
+                <h3>SkillUp</h3>
+                <p>"SkillUp" is a mobile and web platform that offers micro-courses for professional development...</p>
+        
+                <!-- Prototype Embed Button -->
+                <button class="figma-btn prototype-btn">📱 View Prototype</button>
+                <div class="figma-container prototype-container hidden">
+                    <iframe width="800" height="450" 
+                        src="https://www.figma.com/embed?embed_host=figma&url=https://www.figma.com/proto/9grcm7E9diR3t5a2wCJ9j2/SkillUp-mobile-version?page-id=16%3A187&node-id=16-188&scaling=scale-down&content-scaling=fixed&starting-point-node-id=16%3A188"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+        
+                <!-- Case Study Embed Button -->
+                <button class="figma-btn case-study-btn">📂 View Case Study</button>
+                <div class="figma-container case-study-container hidden">
+                    <iframe width="800" height="450" 
+                        src="https://www.figma.com/embed?embed_host=figma&url=https://www.figma.com/design/9grcm7E9diR3t5a2wCJ9j2/SkillUp-mobile-version?node-id=77-2918"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card">
+          <img src="WBN UI.png" alt="Project 2">
+          <div class="ux-project-info">
+              <h3>WBN</h3>
+              <p>A sleek and user-friendly mobile e-commerce app designed for Wigs by Nandi...</p>
+      
+              <!-- Prototype Embed Button -->
+              <button class="figma-btn prototype-btn">📱 View Prototype</button>
+              <div class="figma-container prototype-container hidden">
+                  <iframe width="800" height="450" 
+                      src="https://www.figma.com/embed?embed_host=figma&url=https://www.figma.com/proto/E25Km86UiRVAXuNj27V7LJ/WBN-APP?page-id=0%3A1&node-id=358-1000&scaling=scale-down&content-scaling=fixed&starting-point-node-id=308%3A356"
+                      allowfullscreen>
+                  </iframe>
+              </div>
+      
+              <!-- Case Study Embed Button -->
+              <button class="figma-btn case-study-btn">📂 View Case Study</button>
+              <div class="figma-container case-study-container hidden">
+                  <iframe width="800" height="450" 
+                      src="https://www.figma.com/embed?embed_host=figma&url=https://www.figma.com/design/E25Km86UiRVAXuNj27V7LJ/WBN-APP?node-id=455-17778"
+                      allowfullscreen>
+                  </iframe>
+              </div>
+          </div>
+      </div>
+      
+            
+            
+    </section>        
+
+
+    /* UX Projects Section */
+#ux-projects {
+  background-color: #05511D; /* Keeps the green background */
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Container for UX project cards */
+.ux-projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px; /* Adjusts spacing */
+  max-width: 1200px;
+  margin: 0 auto; /* Centers the grid */
+  padding: 20px;
+  justify-content: center;
+}
+
+/* Individual UX project cards */
+.ux-project-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ux-project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* UX Project Images */
+.ux-project-card img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* UX Project Titles */
+.ux-project-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: red;
+}
+
+/* UX Project Description */
+.ux-project-info p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* UX Prototype & Case Study Buttons */
+.ux-figma-btn {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.ux-figma-btn:hover {
+  background: #45a049;
+}
+
+/* UX Figma Embed Container */
+.ux-figma-container {
+  display: none; /* Hidden by default */
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.ux-figma-container iframe {
+  width: 100%;
+  height: 500px;
+  border-radius: 12px;
+  border: 2px solid #ddd;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
