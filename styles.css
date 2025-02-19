@@ -129,82 +129,6 @@ span{
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 1024px) {
-  .header .box nav {
-    height: auto;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .header .box nav .div-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .header .box nav .div-links a {
-    margin-right: 0;
-    margin-bottom: 15px;
-  }
-
-  .contains .section h1 {
-    font-size: 40px;
-  }
-
-  .contains .section h3 {
-    font-size: 20px;
-  }
-
-  .contains .section p {
-    font-size: 16px;
-  }
-
-  .social-links {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    transform: translateY(0);
-    flex-direction: row;
-    gap: 15px;
-  }
-
-  .social-links a {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 768px) {
-  .header .box {
-    width: 90%;
-  }
-
-  .header .box nav .logo {
-    font-size: 18px;
-  }
-
-  .contains .section h1 {
-    font-size: 35px;
-  }
-
-  .contains .section h3 {
-    font-size: 18px;
-  }
-
-  .contains .section p {
-    font-size: 14px;
-    margin-bottom: 30px;
-  }
-
-  .btn {
-    padding: 10px 15px;
-    font-size: 14px;
-  }
-
-  .social-links {
-    bottom: 10px;
-  }
-}
 
 @media (max-width: 480px) {
   .header .box {
@@ -647,79 +571,7 @@ video {
 
 
 /* Media Queries for Responsiveness */
-@media (max-width: 1024px) {
-  .header .box nav .div-links {
-    display: flex;
-    flex-wrap: nowrap;  /* Prevent wrapping */
-    justify-content: center;  /* Center the links horizontally */
-    gap: 15px;  /* Adjust spacing between links */
-    margin-top: 20px;  /* Add space from the top */
-  }
 
-  .header .box nav .div-links a {
-    white-space: nowrap;  /* Prevent text from breaking into multiple lines */
-  }
-
-  .contains .section h1 {
-    font-size: 40px;
-  }
-
-  .contains .section h3 {
-    font-size: 20px;
-  }
-
-  .contains .section p {
-    font-size: 16px;
-  }
-
-  .social-links {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    transform: translateY(0);
-    flex-direction: row;
-    gap: 15px;
-  }
-
-  .social-links a {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .header .box nav .div-links {
-    display: flex;
-    flex-wrap: nowrap;  /* Prevent wrapping */
-    justify-content: center;  /* Center the links horizontally */
-    margin-top: 20px;  /* Add space from the top */
-  }
-
-  .header .box nav .div-links a {
-    white-space: nowrap;  /* Prevent text from breaking into multiple lines */
-  }
-
-  .contains .section h1 {
-    font-size: 35px;
-  }
-
-  .contains .section h3 {
-    font-size: 18px;
-  }
-
-  .contains .section p {
-    font-size: 14px;
-    margin-bottom: 30px;
-  }
-
-  .btn {
-    padding: 10px 15px;
-    font-size: 14px;
-  }
-
-  .social-links {
-    bottom: 20px;
-  }
-}
 
 @media (max-width: 480px) {
   .header .box nav .div-links {
@@ -761,20 +613,6 @@ video {
   }
 }
 
-
-@media (max-width: 768px) {
-  .header .box nav .div-links {
-    display: flex;
-    flex-wrap: nowrap;  /* Prevent wrapping */
-    justify-content: center;  /* Center the links horizontally */
-    gap: 15px;  /* Adjust spacing between links */
-    margin-top: 20px;  /* Add space from the top */
-  }
-
-  .header .box nav .div-links a {
-    white-space: nowrap;  /* Prevent text from breaking into multiple lines */
-  }
-}
 
 @media (max-width: 360px) {
   .header .box nav .div-links {
