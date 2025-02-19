@@ -569,7 +569,7 @@ video {
 
   .social-links{
     position: absolute;
-    bottom: 0;
+    bottom: 90%;
     right: 20px;
     transform: translateY(-50%);
     display: flex;
@@ -615,7 +615,7 @@ video {
 
   .social-links{
     position: absolute;
-    bottom: 0;
+    bottom: 90%;
     right: 20px;
     transform: translateY(-50%);
     display: flex;
