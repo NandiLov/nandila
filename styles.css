@@ -111,6 +111,7 @@
 
 .social-links a{
   color: #fff;
+  text-shadow: 2px 2px 4px black; /* Adds a black shadow for contrast */
   font-size: 22px;
   transition: 0.4s;
 }
@@ -131,14 +132,14 @@ span{
 @media (max-width: 1024px) {
   .header .box nav {
     height: auto;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
   }
 
   .header .box nav .div-links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -234,11 +235,14 @@ span{
 
   .social-links {
     gap: 10px;
+    justify-content: center; /* Center icons on mobile */
+    margin-top: 50px;
   }
 
   .social-links a {
     font-size: 16px;
   }
+
 }
 
 
@@ -646,14 +650,14 @@ video {
 @media (max-width: 1024px) {
   .header .box nav {
     height: auto;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
 
   .header .box nav .div-links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -727,6 +731,12 @@ video {
 
   .header .box nav {
     height: auto;
+    flex-direction: row; /* Ensures it remains horizontal */
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px; /* Space between links */
+  
   }
 
   .contains .section h1 {
