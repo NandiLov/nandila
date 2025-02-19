@@ -774,3 +774,17 @@ video {
     white-space: nowrap;  /* Prevent text from breaking into multiple lines */
   }
 }
+
+@media (max-width: 360px) {
+  .header .box nav .div-links {
+    display: flex;
+    flex-wrap: nowrap;  /* Prevent wrapping */
+    justify-content: center;  /* Center the links horizontally */
+    gap: 10px;  /* Adjust spacing between links */
+    margin-top: 20px;  /* Add space from the top */
+  }
+
+  .header .box nav .div-links a {
+    white-space: nowrap;  /* Prevent text from breaking into multiple lines */
+  }
+}
