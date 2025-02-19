@@ -648,14 +648,3 @@ video {
   }
 }
 
-@media (max-width: 480px) {
-  .project-card {
-      padding: 16px; /* Adjust padding as needed */
-  }
-}
-
-@media (max-width: 360px) {
-  .project-card {
-      padding: 12px; /* Slightly less padding for smaller screens */
-  }
-}
