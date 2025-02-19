@@ -572,7 +572,7 @@ video {
     display: flex;
     flex-direction: row;
     gap:10px;
-  /*align-items: center;*/
+    align-items: center;
   }
 
 
@@ -605,7 +605,7 @@ video {
     display: flex;
     flex-direction: row;
     gap:10px;
- /*align-items: center;*/
+    align-items: center;
   }
 
 
