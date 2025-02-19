@@ -7,6 +7,11 @@
 
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+
 /* Header section */
 .header{
   width: 100%;
@@ -52,7 +57,10 @@
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  width: 100%;
+  padding: 0 10px; /* Prevents content from touching the edges */
 }
+
 
 .contains .section h1{
   font-size: 50px;
