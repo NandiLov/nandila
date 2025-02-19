@@ -567,21 +567,22 @@ video {
   }
   
 
-  .social-links {
+  .social-links{
     position: absolute;
-    bottom: 20px; /* Moves the element close to the bottom of the screen */
-    right: 20px;  /* Keeps it 20px from the right */
+    bottom: 90%;
+    right: 10px;
+    transform: translateY(50%);
     display: flex;
     flex-direction: row;
-    gap: 10px;
-}
+    gap:10px;
+  /*align-items: center;*/
   }
 
 
   .social-links a {
     font-size:20x;
   }
-
+}
 
 /* Media Queries for Responsiveness */
 /*
@@ -609,14 +610,19 @@ video {
 
   .header .box nav .div-links a {
     white-space: nowrap;  /* Prevent text from breaking into multiple lines */
-
   }
-  .social-links {
+
+
+  .social-links{
     position: absolute;
-    bottom: 20px; /* Moves the element close to the bottom of the screen */
-    right: 20px;  /* Keeps it 20px from the right */
+    bottom: 10%;
+    right: 20px;
+    transform: translateY(50%);
     display: flex;
     flex-direction: row;
-    gap: 10px;
-}
+    gap:10px;
+ /*align-items: center;*/
+  }
+
+
 }
