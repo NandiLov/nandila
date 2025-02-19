@@ -7,11 +7,6 @@
 
 }
 
-html, body {
-  overflow-x: hidden;
-}
-
-
 /* Header section */
 .header{
   width: 100%;
@@ -57,10 +52,7 @@ html, body {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  width: 100%;
-  padding: 0 10px; /* Prevents content from touching the edges */
 }
-
 
 .contains .section h1{
   font-size: 50px;
@@ -617,4 +609,33 @@ video {
   }
 
 
+}
+@media (max-width: 480px) {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .header .box {
+    width: 100%;
+    padding: 0 10px; /* Ensures content doesn't touch screen edges */
+  }
+
+  img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .header .box {
+    width: 100%;
+    padding: 0 8px; /* Slightly smaller padding for very small screens */
+  }
 }
