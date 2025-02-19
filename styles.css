@@ -581,7 +581,7 @@ video {
   .social-links a {
     font-size:20x;
   }
-}
+
 
 /* Media Queries for Responsiveness */
 /*
@@ -609,8 +609,6 @@ video {
 
   .header .box nav .div-links a {
     white-space: nowrap;  /* Prevent text from breaking into multiple lines */
-  }
-
 
   }
   .social-links {
@@ -621,5 +619,4 @@ video {
     flex-direction: row;
     gap: 10px;
 }
-
 }
