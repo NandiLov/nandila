@@ -7,9 +7,6 @@
 
 }
 
-
-
-
 /* Header section */
 .header{
   width: 100%;
@@ -583,19 +580,6 @@ video {
     font-size:20x;
   }
 }
-
-/* Media Queries for Responsiveness */
-/*
-@media (max-width: 480px) {
-  .header .box {
-    width: 100%;
-  }
-
-  .header .box nav {
-    height: auto;
-  }
-
-} */
 
 
 
