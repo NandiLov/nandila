@@ -145,7 +145,7 @@ span{
     justify-content: space-between;
     align-items: center;
   }
-
+/*
   .header .box nav .div-links {
     display: flex;
     flex-direction: row;
@@ -156,7 +156,7 @@ span{
     margin-right: 0;
     margin-bottom: 15px;
   }
-
+*/
   .contains .section h1 {
     font-size: 40px;
   }
@@ -215,44 +215,7 @@ span{
   }
 }
 
-@media (max-width: 480px) {
-  .header .box {
-    width: 100%;
-  }
 
-  .header .box nav {
-    height: auto;
-  }
-
-  .contains .section h1 {
-    font-size: 30px;
-  }
-
-  .contains .section h3 {
-    font-size: 16px;
-  }
-
-  .contains .section p {
-    font-size: 12px;
-    margin-bottom: 20px;
-  }
-
-  .btn {
-    padding: 8px 12px;
-    font-size: 12px;
-  }
-
-  .social-links {
-    gap: 10px;
-    justify-content: center; /* Center icons on mobile */
-    margin-top: 50px;
-  }
-
-  .social-links a {
-    font-size: 16px;
-  }
-
-}
 
 
 
@@ -652,125 +615,3 @@ video {
 
 
 
-
-
-
-/* Media Queries for Responsiveness */
-@media (max-width: 1024px) {
-  .header .box nav {
-    height: auto;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .header .box nav .div-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .header .box nav .div-links a {
-    margin-right: 0;
-    margin-bottom: 15px;
-  }
-
-  .contains .section h1 {
-    font-size: 40px;
-  }
-
-  .contains .section h3 {
-    font-size: 20px;
-  }
-
-  .contains .section p {
-    font-size: 16px;
-  }
-
-  .social-links {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    transform: translateY(0);
-    flex-direction: row;
-    gap: 15px;
-  }
-
-  .social-links a {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 768px) {
-  .header .box {
-    width: 90%;
-  }
-
-  .header .box nav .logo {
-    font-size: 18px;
-  }
-
-  .contains .section h1 {
-    font-size: 35px;
-  }
-
-  .contains .section h3 {
-    font-size: 18px;
-  }
-
-  .contains .section p {
-    font-size: 14px;
-    margin-bottom: 30px;
-  }
-
-  .btn {
-    padding: 10px 15px;
-    font-size: 14px;
-  }
-
-  .social-links {
-    bottom: 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  .header .box {
-    width: 100%;
-  }
-
-  .header .box nav {
-    height: auto;
-    flex-direction: row; /* Ensures it remains horizontal */
-    display: flex;
-    justify-content: space-between;
-    display: flex;
-    gap: 20px; /* Space between links */
-  
-  }
-
-  .contains .section h1 {
-    font-size: 30px;
-  }
-
-  .contains .section h3 {
-    font-size: 16px;
-  }
-
-  .contains .section p {
-    font-size: 12px;
-    margin-bottom: 20px;
-  }
-
-  .btn {
-    padding: 8px 12px;
-    font-size: 12px;
-  }
-
-  .social-links {
-    gap: 10px;
-  }
-
-  .social-links a {
-    font-size: 16px;
-  }
-}
