@@ -645,8 +645,6 @@ video {
     height: 40px;
     transition: transform 0.3s ease;
   
-    padding: 15px 20px;
-
     display: inline-block;
   }
   
@@ -663,9 +661,7 @@ video {
     height: 40px;
     transition: transform 0.3s ease;
   
-    padding: 15px 20px;
-    margin-top: 0.5rem;
-    padding: 0.5rem 1rem;
+
     display: inline-block;
   }
   
