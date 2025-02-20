@@ -639,6 +639,18 @@ video {
     margin: 0;
     padding: 0;
   }
+
+  #github img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  
+    padding: 15px 20px;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+  }
+  
 }
 
 @media (max-width: 360px) {
@@ -646,5 +658,18 @@ video {
     width: 100%;
     padding: 0 8px; /* Slightly smaller padding for very small screens */
   }
+
+  #github img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  
+    padding: 15px 20px;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+  }
+  
 }
+
 
